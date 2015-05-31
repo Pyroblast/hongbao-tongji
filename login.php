@@ -2,8 +2,8 @@
 session_start();
 $admin = addslashes($_POST['admin']);
 $password = addslashes($_POST['password']);
-$admin_now = "dianjoy";
-$password_now = "loveandpeace";
+$admin_now = "";
+$password_now = "";
 if ($admin && $password ) {
 	if ($admin == $admin_now && $password == $password_now) {
 		$_SESSION['tongji_admin']=$admin;
